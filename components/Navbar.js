@@ -3,34 +3,39 @@ import Link from 'next/link';
 
 const Nav = styled.nav`
   height: 80px;
-  background: #000;
+  background: #0288d1;
   color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 5%;
+`
+
+const StyledLink = styled.a`
+  padding: 0 2em;
+
+  &:hover {
+    color: yellow;
+  }
 `
 
 const Navbar = () => {
   return (
     <Nav>
       <div>
-        <Link href="/">
-          <a>Logo</a>
+        <Link href="/" passHref>
+          <StyledLink>Logo</StyledLink>
         </Link>
       </div>
       <div>
-        <Link href="/">
-          <a>Home</a>
+        <Link href="/" passHref>
+          <StyledLink>Home</StyledLink>
         </Link>
-      </div>
-      <div>
-        <Link href="/about">
-          <a>About</a>
+        <Link href="/about" passHref>
+          <StyledLink>About</StyledLink>
         </Link>
-      </div>
-      <div>
-        <Link href="/contact">
-          <a>Contact</a>
+        <Link href="/contact" passHref>
+          <StyledLink>Contact</StyledLink>
         </Link>
       </div>
     </Nav>
