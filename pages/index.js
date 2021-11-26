@@ -3,16 +3,24 @@ import styled from 'styled-components';
 
 const Hero = styled.div`
   display: flex;
-  height: 90vh;
+  flex-direction: column;
+  height: 91vh;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-image: url('https://s3.amazonaws.com/cdn.matadornetwork.com/blogs/1/2011/05/Melbourne-Australia-cityscape-destination-1200x900.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 `
 
 const Heading = styled.h1`
-  color: black;
-  font-size: 10rem;
+  color: white;
+  font-size: 4em;
   font-weight: 900;
+`
+
+const Slogan = styled.h2`
+  color: white;
 `
 
 export default function Home() {
@@ -24,8 +32,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>test</Heading>
+        <Heading>Melbourne Stories</Heading>
+        <Slogan>Learn more about the most livable city in the World.</Slogan>
       </Hero>
+      <div>
+        content
+      </div>
 
     </>
   )
