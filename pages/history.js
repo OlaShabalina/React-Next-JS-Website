@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   background-color: lightgray;
+  padding: 30px 10px;
 `
 
 const Timeline = styled.div`
@@ -37,9 +38,16 @@ const Article = styled.article`
 
 const DateCircle = styled.div`
   width: 40%;
-  float: left;
   margin: 5px 0 0 0;
   border-radius: 6px;
+  float: left;
+`
+
+const DateCircleRight = styled.div`
+  width: 40%;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+  float: right;
 `
 
 const Date = styled.span`
@@ -63,6 +71,36 @@ const Date = styled.span`
   box-shadow: 0 0 0 7px #25303B;
 `
 
+const EventTitle = styled.h2`
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+
+  &::after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  width: 10px; 
+  height: 10px;
+  }
+`
+
+const EventContent = styled.p`
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+`
+
+
 export default function History() {
   return (
     <>
@@ -72,30 +110,140 @@ export default function History() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Container>
-      <Timeline>
-        <Article>
-          <DateCircle>
-            <Date>
-              <span class="day">30<sup>th</sup></span>
-              <span class="month">Jan</span>
-              <span class="year">2014</span>
-            </Date>
-            <h2>The Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-          </DateCircle>
-        </Article>
-        <Article>
-          <DateCircle>
-            <Date>
-              <span class="day">26<sup>th</sup></span>
-              <span class="month">Jan</span>
-              <span class="year">2014</span>
-            </Date>
-            <h2>The Title</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</p>
-          </DateCircle>
-        </Article>
-      </Timeline>
+        <Timeline>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">30<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">30<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+          <Article>
+            <DateCircle>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircle>
+          </Article>
+          <Article>
+            <DateCircleRight>
+              <Date>
+                <span class="day">26<sup>th</sup></span>
+                <span class="month">Jan</span>
+                <span class="year">2014</span>
+              </Date>
+              <EventTitle>The Title</EventTitle>
+              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+            </DateCircleRight>
+          </Article>
+        </Timeline>
       </Container>
     </>
   )
