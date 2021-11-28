@@ -41,8 +41,8 @@ const Navbar = () => {
         <Link href="/history" passHref>
           <StyledLink>History</StyledLink>
         </Link>
-        <Link href="/resources" passHref>
-          <StyledLink>Resources</StyledLink>
+        <Link href="/blog" passHref>
+          <StyledLink>Blog</StyledLink>
         </Link>
         <Link href="/contact" passHref>
           <StyledLink>Get in touch</StyledLink>
