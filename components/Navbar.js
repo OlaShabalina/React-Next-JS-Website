@@ -22,7 +22,7 @@ const StyledLink = styled.a`
   padding: 0 2em;
 
   &:hover {
-    color: yellow;
+    color: #154c79;
   }
 `
 

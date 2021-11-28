@@ -2,12 +2,10 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 const PageBody = styled.body`
-  padding-top: 0;
   font-size: 12px;
   color: #777;
   background: #f9f9f9;
-  font-family: 'Open Sans',sans-serif;
-  margin-top:20px;
+  font-family: 'Open Sans', sans-serif;
 `
 
 const Content = styled.div`
@@ -18,11 +16,13 @@ const Content = styled.div`
 const BlogSection = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: space-space-between;
 `
 
 const Heading = styled.h1`
   margin: 20px 0;
   padding: 5px 0 10px;
+  text-align: center;
   border-bottom: 1px solid #eee;
   font-weight: 500;
 `
@@ -32,6 +32,9 @@ const BlogContainer = styled.div`
   background: #fff;
   color: #999;
   transition: all .2s linear;
+  margin: 20px 30px;
+  padding: 20px 20px;
+  outline: 1px solid gray;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
@@ -99,6 +102,10 @@ const Media = styled.div`
   zoom: 1;
 `
 
+const BlogLink = styled.a`
+  text-decoration: underline;
+`
+
 export default function Resources() {
   return (
     <>
@@ -126,7 +133,7 @@ export default function Resources() {
                 <p className="m-top-sm m-bottom-sm">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eros nibh, viverra a dui a, gravida varius velit. Nunc vel tempor nisi. Aenean id pellentesque mi, non placerat mi. Integer luctus accumsan tellus. Vivamus quis elit sit amet nibh lacinia suscipit eu quis purus. Vivamus tristique est non ipsum dapibus lacinia sed nec metus.
                 </p>
-                <a href="single_post.html"><i className="fa fa-angle-double-right"></i> Continue reading</a>
+                <BlogLink href="single_post.html"><i className="fa fa-angle-double-right"></i> Continue reading</BlogLink>
                 <PostLike data-toggle="tooltip" data-original-title="I like this post!">
                   <i className="fa fa-heart"></i> <span className="like-count">25</span>
                 </PostLike>
@@ -147,7 +154,7 @@ export default function Resources() {
                 <p className="m-top-sm m-bottom-sm">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eros nibh, viverra a dui a, gravida varius velit. Nunc vel tempor nisi. Aenean id pellentesque mi, non placerat mi. Integer luctus accumsan tellus. Vivamus quis elit sit amet nibh lacinia suscipit eu quis purus. Vivamus tristique est non ipsum dapibus lacinia sed nec metus.
                 </p>
-                <a href="single_post.html"><i className="fa fa-angle-double-right"></i> Continue reading</a>
+                <BlogLink href="single_post.html"><i className="fa fa-angle-double-right"></i> Continue reading</BlogLink>
                 <PostLike data-toggle="tooltip" data-original-title="I like this post!">
                   <i className="fa fa-heart"></i> <span className="like-count">25</span>
                 </PostLike>

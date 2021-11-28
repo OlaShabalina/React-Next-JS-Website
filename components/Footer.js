@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const FooterSection = styled.footer`
-  background: #0288d1;
+  background: #154c79;
   color: white;
   height: 60px;
   display: flex;
