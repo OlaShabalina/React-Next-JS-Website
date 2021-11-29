@@ -62,19 +62,18 @@ const Date = styled.span`
   left: 50%;
   margin: 0 0 0 -32px;
   border-radius: 100%;
-  font-size: 12px;
+  font-size: 17px;
   font-weight: 900;
-  text-transform: uppercase;
-  background: #25303B;
-  color: rgba(255,255,255,0.5);
+  background: #154c79;
+  color: white;
   border: 2px solid rgba(255,255,255,0.2);
-  box-shadow: 0 0 0 7px #25303B;
+  box-shadow: 0 0 0 7px #154c79;
 `
 
 const EventTitle = styled.h2`
   padding: 15px;
   margin: 0;
-  color: #fff;
+  color: #154c79;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -114,133 +113,110 @@ export default function History() {
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">30<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>2000-s</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Melbourne named World’s Most Liveable City for seventh year</EventTitle>
+              <EventContent>The EIU Liveability Index is the world's most widely accepted ranking of liveability, comparing 140 of the world's major cities. Melbourne achieved the highest score of 97.5 out of 100, unchanged from 2016.
+              "No city in the world has topped the EIU's Liveability Index for seven consecutive years in its own right," the Lord Mayor said.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1983</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Melbourne dust storm and Ash Wednesday fires</EventTitle>
+              <EventContent>Just before 3pm on 8th February 1983, Melbourne was blanketed by a severe dust storm. An estimated 1,000 tonnes of red top soil from the Mallee fell across the city as a consequence of the 1982/83 drought. Eight days later on 16th February, more than 180 fires ignited across Victoria and South Australia. Ash Wednesday, as it came to be known, caused widespread destruction and 75 people were killed, with more than 2,000 injured. It was one of Australia’s costliest natural disasters.</EventContent>
             </DateCircleRight>
           </Article>
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1956</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Olympic Games held in Melbourne</EventTitle>
+              <EventContent>In 1956, Melbourne became the first city outside of Europe and North America to host the Summer Olympics. Known as the “Friendly Games,” the event was riddled with issues including boycotts, equine quarantine laws and political disputes. Despite everything, 469 medals were awarded and local champions including Betty Cumbert and Murray Rose made history.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1901</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Commonwealth of Australia is formed</EventTitle>
+              <EventContent>On 1st January 1901, British Parliament enforced a legislation granting the six Australian colonies independence and the right to govern as a part of the Commonwealth of Australia. The first Parliament opened on 9 May 1901 in the western annex of the Royal Exhibition Building. From 1901 to 1927, Parliament congregated Parliament House, Melbourne.</EventContent>
             </DateCircleRight>
           </Article>
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1880</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Ned Kelly’s Last Stand</EventTitle>
+              <EventContent>Victorian bush ranger Ned Kelly and his gang had their last stand in Glenrowan in June of 1880. The four outlaws descended on the Victorian town on Sunday 27th June and the final shoot off took place at Anne Jones’s Inn where Joe Byrne, Dan Kelly and Steve Hart died. In the early morning of Monday 28th June, Ned Kelly was seized and arrested.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1861</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>First Melbourne Cup</EventTitle>
+              <EventContent>The Race That Stops a Nation was an idea envisioned by Chairman of the Victorian Racing Club Frederick Standish. On Thursday 7th November 1861, his dream become a reality when 17 horses ran the first Melbourne Cup in front of a crowd of 4,000. Archer, a stallion from New South Wales, crossed the line first with a time of 3:52:00 and earning a prize of 710 gold sovereigns and a gold watch.</EventContent>
             </DateCircleRight>
           </Article>
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">30<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1858</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Melbourne Football Club was founded</EventTitle>
+              <EventContent>Tom Wills, captain of the Victoria cricket team, called for a sport to keep cricketers fit in winter and so in May 1858, the Melbourne Football Club was founded. Nicknamed the Demons, Melbourne “is the world’s oldest professional club of any football code.” In 1877, the VFL was established and in 1990, the league was renamed the Australian Football League to reflect the game’s national presence.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1856</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Stonemasons win the eight-hour day</EventTitle>
+              <EventContent>On 21st April 1856, Victorian stonemasons marched to Parliament House in protest of their working hours. It was thereby agreed that stonemasons would work an eight-hour day. The campaign placed Australia as a front runner of progressive labour movements and is now commemorated with the Labour Day public holidays.</EventContent>
             </DateCircleRight>
           </Article>
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1854</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Eureka Stockade</EventTitle>
+              <EventContent>Prompted by the digger’s opposition of miners’ licences, the Eureka Stockade was a twenty minute battle which took place on 3rd December 1854 in Ballarat. The event is seen as the birthplace of Australian democracy. In the aftermath, gold licences were abolished and replaced by the Miner’s Right.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1851</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Victorian Gold Rush</EventTitle>
+              <EventContent>The discovery of gold in Mount Alexander in 1851 brought an influx of immigrants to provincial areas of Victoria including Ballarat, Bendigo, Beechworth and Castlemaine. In 1869, the world’s largest nugget was found in Moliagul, and at the peak of gold fever two tonnes of gold were poured into Melbourne’s Treasury Building each week. The gold rush revolutionized the state, society and politics as the population boomed.</EventContent>
             </DateCircleRight>
           </Article>
           <Article>
             <DateCircle>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1847</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>Melbourne declared a city by Queen Victoria</EventTitle>
+              <EventContent>On 25th June 1847, the Town of Melbourne was declared a city by Letters Patent of Queen Victoria, a friend of Lord Melbourne. Subsequently, in 1851 Melbourne was proclaimed the capital of Victoria.</EventContent>
             </DateCircle>
           </Article>
           <Article>
             <DateCircleRight>
               <Date>
-                <span class="day">26<sup>th</sup></span>
-                <span class="month">Jan</span>
-                <span class="year">2014</span>
+                <span>1835</span>
               </Date>
-              <EventTitle>The Title</EventTitle>
-              <EventContent>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis rutrum nunc, eget dictum massa. Nam faucibus felis nec augue adipiscing, eget commodo libero mattis.</EventContent>
+              <EventTitle>The foundation of Melbourne</EventTitle>
+              <EventContent>There is much dispute regarding whether it was John Batman or his rival John Pascoe Fawkner who rightfully founded Melbourne. John Batman arrived in Port Phillip Bay from Van Dieman’s Land (Tasmanian) in 1835 and signed a treaty with the local Aboriginal people, the Wurundjeri. Later that year, the Fawkner party, minus John Pascoe Fawkner, arrived on the Enterprize into Port Phillip Bay. In the first few years, Melbourne had many names including Batmania and Barebrass the Settlement.</EventContent>
             </DateCircleRight>
           </Article>
         </Timeline>
