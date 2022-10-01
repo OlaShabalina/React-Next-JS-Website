@@ -12,7 +12,7 @@ const FooterSection = styled.footer`
 function Footer() {
   return (
     <FooterSection>
-      <p>Next Project by Olga Shabalina 2021. All Rights Reserved.</p>
+      <p>Next Project by Olga Shabalina 2022. All Rights Reserved.</p>
     </FooterSection>
   )
 }
